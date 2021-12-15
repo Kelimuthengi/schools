@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>To Get Started Log In</title>
+    
+    <!-- BOOTSTRAP LINK -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- FAV ICON   -->
+    <link rel="shortcut icon" href="/images/gradcap.png" type="image/x-icon">
+
+    <!-- ROOT CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!-- LOG IN SECTION STARTS -->
+
+    <section class="loginsection">
+        <div class="leftimgtextholder">
+            <div class="leftimg">
+
+            </div>
+
+            <div class="text">
+                <div class="container">
+                  
+                  
+                    <p><span style="color: white; text-transform: uppercase; font-size: 30px;">Lorem ipsum dolor sit amet, </span> consectetur adipisicing elit. Voluptates numquam maiores doloremque ullam vel nihil perspiciatis velit omnis dolor eos.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="loginformholder">
+
+            <div class="container loginforms">
+                <div class="card logincard">
+                    <div class="card-body">
+                        <h5 class="card-title">Enter your log in Details</h5>
+                        <input type="text" class="form-control mb-2" id="phoneNum" placeholder="Enter your Number">
+                        <input type="text" class="form-control" id="Code" placeholder="Enter your Code" style="display: none;">
+                        <input type="button" class="form-control mt-2 mb-2" id="sign-in-button" value="SUBMIT">
+                        <input type="button" class="form-control mt-2 mb-2" id="verify" style="display: none;" value="VERIFY">
+
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div><input type="checkbox" class="form-check" name="" id=""> <span>Remember me</span> </div>
+                            
+                            <!-- <a href="/admin/resetpassword.html">Forgot password?</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </section>
+
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-firestore.js"></script>
+
+    <script src="/js/config.js"></script>
+    <script src="/phone.js"></script>
+    <!-- <script src="/js/login.js"></script> -->
+</body>
+</html>

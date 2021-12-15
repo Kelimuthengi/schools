@@ -1,0 +1,235 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.loginsection {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.leftimgtextholder {
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.leftimg {
+    background-image: url(/images/african\ school\ boy.jpg);
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.text {
+    padding: 70px 20px;
+    background-color: black;
+}
+
+.text p {
+    color: #e0a80d;
+    font-size: 25px;
+}
+
+.text h5 {
+    color: #9CE2FB;
+}
+
+
+.loginformholder {
+    background-image: url(/images/school_girl.jpg);
+    height: 100vh;
+    width: 50%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.loginforms button {
+    width: 100%;
+    border: none;
+    padding: 5px 0px;
+    background-color: white;
+    color: black;
+    outline: none;
+}
+
+.loginforms button:hover {
+    background-color: #9CE2FB;
+    transition: 2s;
+}
+
+/* ADMIN HOLDER */
+
+.adminmainholder {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+} 
+
+.admindashboardiconholder {
+    height: 100vh;
+    width: 15%;
+    background-color: turquoise;
+  
+}
+
+.admindashboardiconholder img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: -7px;
+}
+
+.adminfunctions {
+    height: 100vh;
+    width: 85%;
+}
+
+.admincontrols {
+    height: 30vh;
+    background-image: url(/images/school_girl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.admincontrols ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.admincontrols li{
+    color: white;
+    list-style: none;
+}
+
+.iconsli:hover {
+    background-color: turquoise;
+}
+
+.addcourses {
+    background-color: white;
+    padding: 2px;
+    color: white;
+}
+
+.iconsholder a {
+    text-decoration: none;
+    color: rgb(88, 84, 84);
+    text-transform:uppercase;
+}
+
+.admindashboard {
+    background-color: #CDB599FF;
+    height: 70vh;
+    
+}
+
+.box1 {
+    background-color: white;
+    width: 30%;
+    height: 30vh;
+    margin: 20px;
+}
+
+.box2 {
+    background-color: white;
+    width: 30%;
+    height: 30vh;
+    margin: 20px;
+}
+
+.box3 {
+    background-color: white;
+    width: 30%;
+    height: 30vh;
+    margin: 20px;
+}
+
+/* STUDENTS SECTION */
+.studentsmainholder {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.studentsdataholder {
+    height: 100vh;
+    width: 85%;
+}
+
+.studentsdatasearch {
+    height: 20vh;
+    width: 100%;
+    background-color: rgb(173,234,253);
+}
+
+/* STAFF HOLDER */
+.staffmainholder {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.staffdataholder {
+    height: 100vh;
+    width: 85%;
+}
+
+.staffdatasearch {
+    height: 20vh;
+    width: 100%;
+    background-color: rgb(173,234,253);
+}
+
+/* TEACHER HOLDER */
+.teachermainholder {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.teacherdataholder {
+    height: 100vh;
+    width: 85%;
+}
+
+.teacherdatasearch {
+    height: 20vh;
+    width: 100%;
+    background-color: rgb(173,234,253);
+}
+
+#teacherurl {
+    height: 50px;
+    width: 50px;
+    background-color: #e0a80d;
+    border-radius: 50%;
+}
+
+/* ADD STAFF */
+
+.staffimglabel {
+    height: 100px;
+    width: 100px;
+    background-color: #e0a80d;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+}
+
+.filename {
+    color: red;
+}
+
+
+
+
+
+
